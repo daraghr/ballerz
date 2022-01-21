@@ -58,6 +58,10 @@ body{
   justify-content: flex-end;
 }
 
+.nav ul{
+  max-width: 40%;
+}
+
 .nav ul li{
   list-style: none;
   padding-right: 40px;
