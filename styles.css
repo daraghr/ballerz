@@ -213,7 +213,7 @@ body{
     height: 100vh;
     background-color: orange;
     top: 0;
-    left: -100vw;
+    left: 0;
     flex-direction: row;
   }
 
