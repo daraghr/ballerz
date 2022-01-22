@@ -239,33 +239,22 @@ body{
     width: auto;
   }
 
+  .mobile-nav ul li{
+    padding: 20px 0;
+  }
+
+  .mobile-nav ul li a{
+    font-size: 1rem;
+  }
+
+  #mobile-nav-close{
+    color: #848484;
+  }
+
   .nav-show{
     display: block;
     opacity: 100%;
     left: 0;
-  }
-
-
-
-  .close-mobile-nav:before,
-  .close-mobile-nav:after,
-  .close-mobile-nav div {
-    background: #fff;
-    content: "";
-    display: block;
-    width: 30px;
-    height: 5px;
-    margin: 7px 0;
-    transition: 0.5s;
-  }
-  .close-mobile-nav:before {
-    transform: translateY(12px) rotate(135deg);
-  }
-  .close-mobile-nav:after {
-    transform: translateY(-12px) rotate(-135deg);
-  }
-  .close-mobile-nav div {
-    transform: scale(0);
   }
 
   .section-wrapper{
