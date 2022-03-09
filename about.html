@@ -6,11 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="about-mobile.css">
   <title>HOOPERZ</title>
 </head>
 <body>
   <div class="main flex flex-vertical" id="home">
+    <div class="flex hamburger-section">
+      <a class="hamburger" href="javascript:void(0);" onClick="mobileNavShow()">
+        <div></div>
+      </a>
+    </div>
     <div class="nav flex flex-horizontal">
+
       <div class="desktop-nav nav-links">
         <ul class="flex flex-horizontal">
           <li>
@@ -62,9 +69,9 @@
     <div class="section-wrapper flex flex-vertical">
       <div class="text-section flex flex-horizontal" id="top-section">
         <h1>WELCOME TO<br>HOOPERZ</h1>
-        <span class="button btn-inverse">
+        <div class="button btn-inverse">
           <a href="#">OPENSEA</a>
-        </span>
+        </div>
       </div>
       <div class="text-section flex flex-vertical" id="welcome-section">
         <div class="section-title">
@@ -100,7 +107,7 @@
       <div class="text-section flex" id="picture-section">
         <div class="container center" id="picture-container">
           <span class="text-container">
-            <p class="bottom">150 players, 10 000 Cards to collect!</p>
+            <p class="bottom">150 players,<br><br> 10 000 Cards to collect!</p>
           </span>
         </div>
       </div>
@@ -133,17 +140,27 @@
         </div>
         <div id="roadmap">
           <div class="section-title">
-            <h2>Whitelist/presale</h2>
+            <h2>ROADMAP</h2>
           </div>
           <div class="section-content">
-            <p>The whitelist will contain a maximum of 50 buyers who will be able to purchase the tokens at the starting bid of 0.05 eth</p>
+            <!-- <p>The whitelist will contain a maximum of 50 buyers who will be able to purchase the tokens at the starting bid of 0.05 eth</p>
             <p>To join the whitelist, you must be an active and contributing member of the community and submit an application on the discord.</p>
             <p>applications will be reviewed on a first come, first served basis</p>
-            <p>once all spots are filled, they will be closed permanently.</p>
+            <p>once all spots are filled, they will be closed permanently.</p> -->
+            <p>STEP #1: First drop is released, immediately begin work on Drop #2 (The LEGENDS)</p>
+            <p>STEP #2: Begin development on HOOPERZ iOS game</p>
+            <p>STEP #3: Launch custom HOOPERZ Merch store</p>
+            <p>STEP #4: Partner with the NBA and begin work on the HOOPERZ Metaverse project</p>
+            <div class="button btn-inverse flex center"> <div>DISCORD</div> </div>
+            <!-- <p>(THIS LIST IS BY NO MEANS THE END OF OUR PLANS AND POTENTIAL FOR THE HOOPERZ BRAND)</p> -->
+            <p>Join our discord linked above to join our community. Here we will be hosting events, fantasy leagues, giveaways and more!</p>
+            <p>There will be 50 whitelist slots which will be filled on a first come, first served basis</p>
+            <p></p>
           </div>
         </div>
       </div>
     </div>
+
   </div>
   <script src="scripts.js"></script>
 </body>

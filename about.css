@@ -4,6 +4,7 @@ body{
   margin: 0 auto;
   overflow-y: scroll;
   height: auto;
+  padding-bottom:
 }
 
 .nav{
@@ -11,8 +12,14 @@ body{
   height: 8vw;
 }
 
+.button a{
+  text-decoration: none;
+}
+
 .section-wrapper{
   background-color: white;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .section-wrapper p, .section-wrapper h2, .section-wrapper h1{
@@ -62,7 +69,7 @@ body{
 }
 
 .section-wrapper h2{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 svg{
@@ -92,16 +99,26 @@ svg{
 .text-container p{
   font-size: 1.1rem;
   color: white;
+  text-align: center;
 }
 
 p{
   padding-bottom: 20px;
 }
 
-#collections{
-  width: 50%;
+#info-section{
+  justify-content: space-between;
 }
 
-#whitelist{
-  width: 50%;
+#info-section .button{
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#collections{
+  width: 48%;
+}
+
+#roadmap{
+  width: 48%;
 }
